@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;700&family=Manrope&family=Ubuntu:wght@700&display=swap');
+
+:root {
+    --primary: hsla(0, 0%, 0%, 0.7);
+    --secondary1: hsla(0, 0%, 0%, 0.2);
+    --secondary2: hsla(0, 0%, 0%, 0.2);
+    --tertiary: hsl(0, 0%, 0%, 0.8);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.poster {
+    width: 100%;
+    /* height: 100vh; */
+    height: 75vh;
+    background: linear-gradient(180deg, var(--primary), var(--secondary1), var(--secondary2), var(--tertiary)), url(../images/poster.jpg);
+    /* background-size: cover; */
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.logo {
+    display: block;
+    margin-top: 2.5vh;
+    /* margin-left: 40vh; */
+    width: 180px;
+    height: 50px;
+}
+
+#drop {
+    margin-top: 2.5vh;
+    margin-left: 40%;
+    width: 6.5%;
+    height: 3.4vh;
+    background-color: hsl(0, 0%, 100%, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.btn-sign {
+    margin-top: 2.5vh;
+    margin-left: 2%;
+    width: 4%;
+    height: 3.4vh;
+    padding: auto;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 15px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+h2 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-top: -450px;
+    font-family: 'kanit';
+    font-weight: 800;
+}
+
+/* h3 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -360px;
+    font-family: 'kanit';
+    font-weight: 300;
+} */
+
+p {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    margin-top: -360px;
+    font-family: 'kanit';
+    font-weight: 300;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -300px;
+    font-family: 'kanit';
+    font-weight: 300;
+}
+
+.btn-start {
+    margin-top: -250px;
+    margin-left: 2%;
+    width: 12%;
+    height: 7vh;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-family: 'Manrope';
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.first-hr {
+    height: 7px;
+    background-color: rgb(41, 41, 41);
+    border: none;
+}
+
+.inp-email {
+    margin-top: -250px;
+    width: 20%;
+    height: 7vh;
+    background-color: hsla(0, 0%, 16%, 0.5);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.main h1 {
+    color: white;
+    font-family: 'kanit';
+    font-weight: 700;
+}
+
+body {
+    background-color: black;
+}
